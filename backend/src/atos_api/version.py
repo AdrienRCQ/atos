@@ -2,6 +2,7 @@ from importlib.metadata import PackageNotFoundError, version
 
 PACKAGE_NAME = "atos-backend"
 
+
 def get_application_version() -> str:
     """Récupération de la version installé du package ATOS"""
     try:

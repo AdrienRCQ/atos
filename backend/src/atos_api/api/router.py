@@ -1,5 +1,7 @@
-""" Routeur principal"""
+"""Routeur principal"""
+
 from fastapi import APIRouter
+
 from atos_api.api.routes import system
 
 api_router = APIRouter()
